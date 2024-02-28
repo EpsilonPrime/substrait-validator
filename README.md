@@ -12,7 +12,7 @@ Substrait validator
 [Latest wheels]: https://img.shields.io/pypi/v/substrait-validator.svg
 [pypi.org]: https://pypi.org/project/substrait-validator
 
-This repository contains an EXPERIMENTAL validator for
+This repository contains the validator for
 [Substrait](https://github.com/substrait-io/substrait) plans. It's written in
 Rust, but bindings are available for Python and C. Other languages may use the
 C API via their respective foreign function interface systems.
@@ -27,7 +27,8 @@ older version. Refer to the table below for the version compatibility matrix.
 
 | Substrait...   | ... is supported by validator ...    |
 | -------------- | ------------------------------------ |
-| 0.20.x         | 0.0.11 (current version)             |
+| 0.43.x         | 0.0.12 (current version)             |
+| 0.20.x         | 0.0.11                               |
 | 0.19.x         | 0.0.10                               |
 | 0.18.x         | 0.0.9                                |
 | 0.9.x - 0.17.x | 0.0.8                                |
